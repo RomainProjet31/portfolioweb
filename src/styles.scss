@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #404040;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bloc {
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bloc .line {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+}
+
+.bloc ul {
+    font-size: xx-large;
+    list-style: none;
+}
+
+.bloc ul ul {
+    font-size: large;
+    font-style: italic;
+    color: rgb(122, 122, 122);
+}

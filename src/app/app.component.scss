@@ -1,0 +1,43 @@
+.container {
+    background-color: #404040;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    color: white;
+    background-color: #222222;
+    justify-content: space-between;
+    position: fixed;
+    width: 101%;
+    overflow: hidden;
+    top:0;
+    margin-left: -1%;
+}
+
+.navbar img {
+    width: 5%;
+    margin: 1px 0 1px 10px;
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 5%;
+    gap: 5px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    font-style: italic;
+    color: #a900d3;
+    cursor: pointer;
+    text-decoration: underline;
+}
