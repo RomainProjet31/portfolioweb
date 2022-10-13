@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FormationsComponent } from './formations/formations.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { LanguageComponent } from './language/language.component';
+import { SkillComponent } from './skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     HeaderComponent,
     FormationsComponent,
     ExperienceComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    CarouselComponent,
+    LanguageComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,

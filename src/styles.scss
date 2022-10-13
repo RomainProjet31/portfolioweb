@@ -32,3 +32,8 @@ h1, h2, h3 {
     font-style: italic;
     color: rgb(122, 122, 122);
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

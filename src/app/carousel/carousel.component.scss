@@ -1,0 +1,33 @@
+.carousel {
+    margin: auto;
+    display: inline-flex;
+}
+
+.image {
+    width: 40vw;
+    height: 40vw;
+    background-color: darkgray;
+}
+
+.leftArrow {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/left-arrow-svgrepo-com.svg");
+}
+
+.rightArrow {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/right-arrow-svgrepo-com.svg");
+}
+
+.leftArrow:hover, .rightArrow:hover {
+    cursor: pointer;
+    background-color: gray;
+}

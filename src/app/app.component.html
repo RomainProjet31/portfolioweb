@@ -1,14 +1,21 @@
 <div class="container">
   <div class="navbar">
-    <img src="../assets/how high.jpg">
+    <img src="../assets/me.jpg" />
     <ul>
       <li><a href="#accueil">Accueil</a></li>
       <li><a href="#formation">Formation</a></li>
       <li><a href="#experience">Expérience</a></li>
-      <li><a href="#Acuueil">Portfolio</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
     </ul>
   </div>
   <app-header id="accueil"></app-header>
-  <app-formations id="formation"></app-formations>
-  <app-experience id="experience"></app-experience>
+  <div class="row">
+    <app-language></app-language>
+    <span>
+      <app-formations id="formation"></app-formations>
+      <app-experience id="experience"></app-experience>
+      <app-portfolio id="portfolio"></app-portfolio>
+    </span>
+    <app-skill></app-skill>
+  </div>
 </div>
