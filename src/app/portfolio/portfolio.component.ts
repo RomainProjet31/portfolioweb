@@ -12,12 +12,12 @@ export class PortfolioComponent implements OnInit {
   constructor() {
     this.slides = [
       {
-        srcImg: '../../assets/how high.jpg',
-        url: 'https://github.com/RomainProjet31/portfolioweb',
+        srcImg: '../../assets/Github_logo_PNG1.png',
+        url: 'https://github.com/RomainProjet31/',
       },
       {
-        srcImg: '../../assets/me.jpg',
-        url: 'https://github.com/RomainProjet31/portfolioweb',
+        srcImg: '../../assets/itchio_icon.png',
+        url: 'https://eldermanable.itch.io/',
       },
     ];
   }
