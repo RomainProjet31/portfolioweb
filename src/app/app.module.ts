@@ -10,6 +10,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { LanguageComponent } from './language/language.component';
 import { SkillComponent } from './skill/skill.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SkillComponent } from './skill/skill.component';
     PortfolioComponent,
     CarouselComponent,
     LanguageComponent,
-    SkillComponent
+    SkillComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
